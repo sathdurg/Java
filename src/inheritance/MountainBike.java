@@ -17,11 +17,9 @@ class MountainBike extends Bicycle
  }  
        
  // the MountainBike subclass adds one more method 
- public void setHeight(int newValue) 
- { 
-     seatHeight = newValue; 
- }  
-   
+	/*
+	 * public void setHeight(int newValue) { seatHeight = newValue; }
+	 */  
  // overriding toString() method 
  // of Bicycle to print more info 
  @Override
